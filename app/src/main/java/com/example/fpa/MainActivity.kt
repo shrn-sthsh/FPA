@@ -110,6 +110,9 @@ class MainActivity: AppCompatActivity() {
                 return false
             }
         }
+        if (word.length > 20) {
+            return false
+        }
         return true
     }
 
